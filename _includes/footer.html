@@ -1,0 +1,64 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">{{ site.schoolname }}</h2> -->
+         <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+ 
+
+         <p class="text">
+{{ site.address | newline_to_br  }}
+      </div>
+
+      <div class="footer-col  footer-col-2">
+       <ul class="social-media-list">
+     
+
+          {% if site.github_username %}
+
+{% endif %}
+
+          {% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fab fa-twitter" style="color:gray"></i> {{ site.twitter_username }}
+    </a>
+  </li>
+{% endif %}
+
+          {% if site.google_scholar_id %}
+  <li>
+    <a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}">
+      <i class="ai ai-google-scholar" style="color:gray"></i> {{ site.google_scholar_id }}
+    </a>
+  </li>
+{% endif %}
+
+          {% if site.orcid_id %}
+  <li>
+    <a href="https://orcid.org/{{ site.orcid_id }}">
+      <i class="ai ai-orcid" style="color:gray"></i> {{ site.orcid_id }}
+    </a>
+  </li>
+{% endif %}
+
+          {% if site.schoolurl %}
+  <li>
+    <a href="{{site.schoolurl}}">
+      <i class="fas fa-globe" style="color:gray"></i> {{site.schoolurl |  remove: "https://" | remove: "http://" | remove: "www." }}
+    </a>
+  </li>
+{% endif %}
+
+
+
+       
+        </ul>
+        <!-- <a href="https://info.flagcounter.com/0s1b"><img src="https://s01.flagcounter.com/count2/0s1b/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
+      </div>
+    </div>
+
+  </div>
+
+</footer>

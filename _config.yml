@@ -1,0 +1,55 @@
+# Site settings
+course_name: Optimization Theory and Algorithm II
+course_description: "
+This course is to present the basic theories and algorithms in optimization fields
+for undergraduate students at School of Management, Xi'an Jiaotong University. The
+aim is to give students a thorough understanding of how to constructe algorithms for solving
+optimization problems, and how to develop theories to analyze optimization problems and corresponding algorithms.
+"
+course_semester: "Fall 2021"
+
+baseurl: "/opt-fall-2021" # the subpath of your site, e.g. /blog/
+url: "http://som-course.github.io/" # the base hostname & protocol for your site
+
+schoolname: "SOM-XJTU"
+schoolurl: "https://som.xjtu.edu.cn"
+# twitter_username: username
+
+address: |
+    School of Management
+    Xi'an Jiaotong University
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+google_analytics: UA-123894317-1
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
