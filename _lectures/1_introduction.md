@@ -5,8 +5,6 @@ title: Lecture 1 Review
 tldr: introduction lecture
 thumbnail: /_images/pp/review.jpeg
 links: 
-    - url: /static_files/presentations/Lecture 1.pdf
-      name: slides
     - url: /static_files/Notes/lecture1.pdf
       name: notes
 
