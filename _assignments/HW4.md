@@ -3,7 +3,7 @@ type: assignment
 date: 2021-10-27T12:00:00+8:00
 title: 'Homework 4'
 pdf: /static_files/HW/HW4/HW4.pdf
-# attachment: /static_files/HW/HW1/Tex_temp.zip
+attachment: /static_files/HW4/HW4/readme.pdf
 # solutions:
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip
