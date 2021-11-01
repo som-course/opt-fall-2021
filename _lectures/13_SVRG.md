@@ -13,3 +13,5 @@ links:
 
 Johnson, Rie, and Tong Zhang. "Accelerating stochastic gradient descent using predictive variance reduction." *Advances in neural information processing systems* 26 (2013): 315-323.
 
+Wright, Stephen J. "Coordinate descent algorithms." *Mathematical Programming* 151, no. 1 (2015): 3-34.
+
