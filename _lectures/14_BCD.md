@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-11-03T8:00:00+8:00
-title: Lecture 14 Block Corodinate Descent
+title: Lecture 14 Block Coordinate Descent
 tldr: BCD
 thumbnail: /_images/pp/bcd.png
 links: 
