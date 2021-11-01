@@ -13,3 +13,4 @@ links:
 
 Li, Xiang, Kaixuan Huang, Wenhao Yang, Shusen Wang, and Zhihua Zhang. "On the Convergence of FedAvg on Non-IID Data." In *International Conference on Learning Representations*. 2019.
 
+Kairouz, Peter, H. Brendan McMahan, Brendan Avent, Aurélien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Kallista Bonawitz et al. "Advances and open problems in federated learning." *arXiv preprint arXiv:1912.04977* (2019).
