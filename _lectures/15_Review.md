@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2021-11-05T8:00:00+8:00
-title: Lecture 15 Alternating Deirection Method of Multipliers
+title: Lecture 15 R
 tldr: ADMM
 thumbnail: /_images/pp/admm.png
 links: 
