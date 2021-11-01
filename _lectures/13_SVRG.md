@@ -1,8 +1,8 @@
 ---
 type: lecture
 date: 2021-10-29T8:00:00+8:00
-title: Lecture 13 Stochastic Variance Reduced Gradient
-tldr: SVRG
+title: Lecture 13 Stochastic Variance Reduced Gradient and Block Coordinate Descent
+tldr: SVRG and BCD
 thumbnail: /_images/pp/svrg.png
 links: 
     - url: /static_files/Notes/lecture13.pdf
